@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
-/* CSS variables */
+/* CSS VARIABLES*/
 :root {
   --color-primary: #43c6ac;
   --color-secondary: #c6435d;
@@ -25,7 +25,7 @@
   --letter-spacing-large: 0.2em;
 }
 
-/* -------- simple reset ------------- */
+/* -------- SIMPLE RESET ------------- */
 *,
 *::after,
 *::before {
@@ -114,3 +114,22 @@ footer {
 }
 
 /* ------------------------------------------------ */
+
+/* -----------------TOP NAV------------------------ */
+
+.nav__items {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: end;
+}
+
+.nav__item {
+  width: 4rem;
+  margin: 1rem;
+  text-align: center;
+  background-color: var(--color-secondary);
+}
+/* ------------------------------------------- */
